@@ -1,6 +1,6 @@
 # Garbage-collection-system
-# It helps to manage garbage acrose the city.
-!
+# It helps to manage garbage across the city.
+
 
 What I have learned from iOS development I try to put that knowledge into small projects. I try to make a "Garbage collection system" Application in swift using firebase database. This application show the complaint status according to the area and create, update new garbage bins and drivers. One of these solutions is to provide an environmentally friendly, efficient and effective garbage management system.
 
