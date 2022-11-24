@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="AdminHomeCollectionViewCell" reuseIdentifier="AdminHomeCollectionViewCell" id="gTV-IL-0wX" customClass="AdminHomeCollectionViewCell" customModule="Garbage_Collection" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="160"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="160"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PWW-Vf-NuY">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="160"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dB0-pe-FYz">
+                                <rect key="frame" x="10" y="100" width="130" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="MOf-z4-cub"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E14-yp-kQ8">
+                                <rect key="frame" x="40" y="20" width="70" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="7LZ-CJ-dyh"/>
+                                    <constraint firstAttribute="height" constant="75" id="U3S-cV-HOA"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="deshboardButtonColour"/>
+                        <constraints>
+                            <constraint firstItem="dB0-pe-FYz" firstAttribute="top" secondItem="E14-yp-kQ8" secondAttribute="bottom" constant="5" id="0LL-Vy-R0X"/>
+                            <constraint firstItem="E14-yp-kQ8" firstAttribute="top" secondItem="PWW-Vf-NuY" secondAttribute="top" constant="20" id="JWM-ga-flw"/>
+                            <constraint firstAttribute="trailing" secondItem="dB0-pe-FYz" secondAttribute="trailing" constant="10" id="Jzb-TO-HTU"/>
+                            <constraint firstAttribute="trailing" secondItem="E14-yp-kQ8" secondAttribute="trailing" constant="40" id="Kdy-yn-KPs"/>
+                            <constraint firstItem="dB0-pe-FYz" firstAttribute="leading" secondItem="PWW-Vf-NuY" secondAttribute="leading" constant="10" id="PEf-eo-qHX"/>
+                            <constraint firstItem="E14-yp-kQ8" firstAttribute="centerX" secondItem="PWW-Vf-NuY" secondAttribute="centerX" id="S4K-ei-GFn"/>
+                            <constraint firstAttribute="bottom" secondItem="dB0-pe-FYz" secondAttribute="bottom" constant="10" id="ugu-Cd-7fh"/>
+                            <constraint firstItem="E14-yp-kQ8" firstAttribute="leading" secondItem="PWW-Vf-NuY" secondAttribute="leading" constant="40" id="vhR-oD-6C5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="PWW-Vf-NuY" secondAttribute="bottom" id="9a1-jb-Yl8"/>
+                <constraint firstItem="PWW-Vf-NuY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Zft-fP-c2I"/>
+                <constraint firstItem="PWW-Vf-NuY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="gxo-8l-ig0"/>
+                <constraint firstAttribute="trailing" secondItem="PWW-Vf-NuY" secondAttribute="trailing" id="ik9-0A-mZr"/>
+            </constraints>
+            <size key="customSize" width="150" height="160"/>
+            <connections>
+                <outlet property="image" destination="E14-yp-kQ8" id="fgF-BZ-GtX"/>
+                <outlet property="lblText" destination="dB0-pe-FYz" id="BmK-mN-IW2"/>
+            </connections>
+            <point key="canvasLocation" x="86.956521739130437" y="101.78571428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="deshboardButtonColour">
+            <color red="0.090000003576278687" green="0.48199999332427979" blue="0.70599997043609619" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

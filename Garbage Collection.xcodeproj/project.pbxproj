@@ -1,0 +1,1140 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013B7482B3EC3B2129566A88 /* Pods_Garbage_CollectionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62226A1DF56836BD762103C5 /* Pods_Garbage_CollectionTests.framework */; };
+		039DFC7CD48E9D548134BC48 /* Pods_Garbage_Collection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA4D2112F31A3A9C3D047F4 /* Pods_Garbage_Collection.framework */; };
+		041076CA289FC47100DA9975 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041076C9289FC47100DA9975 /* User.storyboard */; };
+		041076CC289FC83300DA9975 /* Driver.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041076CB289FC83300DA9975 /* Driver.storyboard */; };
+		0424695D28C49B3900879E31 /* UserDegault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424695C28C49B3900879E31 /* UserDegault.swift */; };
+		04307EB728FC062D00B7D698 /* SetNewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04307EB628FC062D00B7D698 /* SetNewPasswordViewController.swift */; };
+		047C31B028C50D5F00EF622D /* AboutScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C31AF28C50D5F00EF622D /* AboutScreenViewController.swift */; };
+		047FD63728BFFD02001CE924 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FD63628BFFD02001CE924 /* Constants.swift */; };
+		04A7BAD528C12E86008504FF /* UserDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7BAD428C12E86008504FF /* UserDetailsModel.swift */; };
+		04B2A82C28B3F6A30038F0E6 /* LeftMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B2A82A28B3F6A30038F0E6 /* LeftMenuViewController.xib */; };
+		04B2A82D28B3F6A30038F0E6 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2A82B28B3F6A30038F0E6 /* LeftMenuViewController.swift */; };
+		04D9ECF6289EE1D0000F5168 /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9ECF5289EE1D0000F5168 /* ExtensionViewController.swift */; };
+		0753B7D028846675006E5EC0 /* Admin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0753B7CF28846675006E5EC0 /* Admin.storyboard */; };
+		0755DBC1287E7ED6001C4986 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755DBC0287E7ED6001C4986 /* LoginViewController.swift */; };
+		0755DBC6287E7F66001C4986 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755DBC5287E7F66001C4986 /* ForgotPasswordViewController.swift */; };
+		0755DBCB287E7FE2001C4986 /* EnterOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755DBCA287E7FE2001C4986 /* EnterOTPViewController.swift */; };
+		0755DBD0287E802E001C4986 /* SignUpOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755DBCF287E802E001C4986 /* SignUpOptionViewController.swift */; };
+		0755DBD5287E8078001C4986 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755DBD4287E8078001C4986 /* RegisterViewController.swift */; };
+		07572507289DA03C001DB105 /* AdminHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07572505289DA03C001DB105 /* AdminHomeCollectionViewCell.swift */; };
+		07572508289DA03C001DB105 /* AdminHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07572506289DA03C001DB105 /* AdminHomeCollectionViewCell.xib */; };
+		07572510289DA75B001DB105 /* AdminHomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0757250F289DA75B001DB105 /* AdminHomeScreenViewController.swift */; };
+		07572515289DAF6A001DB105 /* UserHomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07572514289DAF6A001DB105 /* UserHomeScreenViewController.swift */; };
+		0757251B289DAFDE001DB105 /* UserHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07572519289DAFDE001DB105 /* UserHomeCollectionViewCell.swift */; };
+		0757251C289DAFDE001DB105 /* UserHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0757251A289DAFDE001DB105 /* UserHomeCollectionViewCell.xib */; };
+		0757400A28A18E4B0097EBE0 /* DeleteBinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0757400928A18E4B0097EBE0 /* DeleteBinViewController.swift */; };
+		0757E27E2890ED8A005DCD73 /* UserDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0757E27D2890ED8A005DCD73 /* UserDashboardViewController.swift */; };
+		0759150F28902B4E00B6570C /* MyComplainsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0759150E28902B4E00B6570C /* MyComplainsViewController.swift */; };
+		0759151428902D7000B6570C /* ComplainsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0759151328902D7000B6570C /* ComplainsViewController.swift */; };
+		0759151928902E2F00B6570C /* ComplainsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0759151828902E2F00B6570C /* ComplainsTableViewCell.swift */; };
+		075915262890307600B6570C /* AddComplaintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075915252890307600B6570C /* AddComplaintViewController.swift */; };
+		0759152B2890310D00B6570C /* UserFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0759152A2890310D00B6570C /* UserFeedbackViewController.swift */; };
+		075915302890365100B6570C /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0759152F2890365100B6570C /* UserProfileViewController.swift */; };
+		0759153928903B8300B6570C /* ListOfBinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0759153828903B8300B6570C /* ListOfBinViewController.swift */; };
+		0759154128903BD000B6570C /* ListOfBinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0759154028903BD000B6570C /* ListOfBinTableViewCell.swift */; };
+		0759154628903DCA00B6570C /* DriverComplaintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0759154528903DCA00B6570C /* DriverComplaintsViewController.swift */; };
+		0759154B28903E1400B6570C /* DriverComplaintTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0759154A28903E1400B6570C /* DriverComplaintTableViewCell.swift */; };
+		075915502890406300B6570C /* UpdateComplaintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0759154F2890406300B6570C /* UpdateComplaintViewController.swift */; };
+		07591555289040A300B6570C /* DriverProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07591554289040A300B6570C /* DriverProfileViewController.swift */; };
+		075A31122890291900B3A919 /* MyComplainsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075A31112890291900B3A919 /* MyComplainsTableViewCell.swift */; };
+		075AA321288BA09D000A0350 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075AA320288BA09D000A0350 /* HomeViewController.swift */; };
+		075AA326288BA0E3000A0350 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075AA325288BA0E3000A0350 /* LogoutViewController.swift */; };
+		075B38F028904DEE00E321B1 /* Admin DeshboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075B38EF28904DEE00E321B1 /* Admin DeshboardViewController.swift */; };
+		075BD5E2287C1DE4004F491B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075BD5E1287C1DE4004F491B /* AppDelegate.swift */; };
+		075BD5E4287C1DE4004F491B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075BD5E3287C1DE4004F491B /* SceneDelegate.swift */; };
+		075BD5E9287C1DE4004F491B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075BD5E7287C1DE4004F491B /* Main.storyboard */; };
+		075BD5EB287C1DE5004F491B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075BD5EA287C1DE5004F491B /* Assets.xcassets */; };
+		075BD5EE287C1DE5004F491B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075BD5EC287C1DE5004F491B /* LaunchScreen.storyboard */; };
+		075BD5F9287C1DE5004F491B /* Garbage_CollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075BD5F8287C1DE5004F491B /* Garbage_CollectionTests.swift */; };
+		075BD604287C1DE5004F491B /* Garbage_CollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075BD603287C1DE5004F491B /* Garbage_CollectionUITests.swift */; };
+		075C8ADA289E578B00C4F3E9 /* DriverHomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075C8AD9289E578B00C4F3E9 /* DriverHomeScreenViewController.swift */; };
+		075C8AE8289E583B00C4F3E9 /* DriverHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075C8AE6289E583B00C4F3E9 /* DriverHomeCollectionViewCell.swift */; };
+		075C8AE9289E583B00C4F3E9 /* DriverHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 075C8AE7289E583B00C4F3E9 /* DriverHomeCollectionViewCell.xib */; };
+		075CB2B3288528D900D004E4 /* BinListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075CB2B2288528D900D004E4 /* BinListTableViewController.swift */; };
+		075CB2B828852B5F00D004E4 /* BinListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075CB2B728852B5F00D004E4 /* BinListTableViewCell.swift */; };
+		075CB2BD2885543000D004E4 /* DriverListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075CB2BC2885543000D004E4 /* DriverListViewController.swift */; };
+		075CB2C22885547800D004E4 /* DriverListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075CB2C12885547800D004E4 /* DriverListTableViewCell.swift */; };
+		075CB2C728855D8800D004E4 /* ComplaintsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075CB2C628855D8800D004E4 /* ComplaintsListViewController.swift */; };
+		075CB2CC28855DD000D004E4 /* ComplaintsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075CB2CB28855DD000D004E4 /* ComplaintsListTableViewCell.swift */; };
+		075CB2DF2885626200D004E4 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075CB2DE2885626200D004E4 /* FeedbackViewController.swift */; };
+		075CB2E42885629400D004E4 /* FeedbackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075CB2E32885629400D004E4 /* FeedbackTableViewCell.swift */; };
+		075CC205289401D600EF4A51 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075CC204289401D600EF4A51 /* HomeTableViewCell.swift */; };
+		0760C15C28C4DED300B10E5E /* FeedbackDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760C15B28C4DED300B10E5E /* FeedbackDetailsModel.swift */; };
+		0760CE6828C30D5700AE9107 /* DriverDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760CE6728C30D5700AE9107 /* DriverDetailsModel.swift */; };
+		0760CE6D28C31E9500AE9107 /* ComplaintDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760CE6C28C31E9500AE9107 /* ComplaintDetailsModel.swift */; };
+		0761CF1028A25D1A00E67A79 /* DeleteDriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0761CF0F28A25D1A00E67A79 /* DeleteDriverViewController.swift */; };
+		07739A0228BD2FA90067C069 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07739A0128BD2FA90067C069 /* GoogleService-Info.plist */; };
+		07EE67B0288474F60020651D /* CreateBinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE67AF288474F60020651D /* CreateBinViewController.swift */; };
+		07EE67B528847FE10020651D /* CreateDriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE67B428847FE10020651D /* CreateDriverViewController.swift */; };
+		07FC8E1A28C7C31600E33235 /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FC8E1928C7C31600E33235 /* TextFieldExtension.swift */; };
+		276D480A31CFF6C6C505B995 /* Pods_Garbage_Collection_Garbage_CollectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D203149B5D8CD90979B840E3 /* Pods_Garbage_Collection_Garbage_CollectionUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		075BD5F5287C1DE5004F491B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075BD5D6287C1DE4004F491B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 075BD5DD287C1DE4004F491B;
+			remoteInfo = "Garbage Collection";
+		};
+		075BD600287C1DE5004F491B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075BD5D6287C1DE4004F491B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 075BD5DD287C1DE4004F491B;
+			remoteInfo = "Garbage Collection";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041076C9289FC47100DA9975 /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		041076CB289FC83300DA9975 /* Driver.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Driver.storyboard; sourceTree = "<group>"; };
+		0424695C28C49B3900879E31 /* UserDegault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDegault.swift; sourceTree = "<group>"; };
+		04307EB628FC062D00B7D698 /* SetNewPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetNewPasswordViewController.swift; sourceTree = "<group>"; };
+		047C31AF28C50D5F00EF622D /* AboutScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutScreenViewController.swift; sourceTree = "<group>"; };
+		047FD63628BFFD02001CE924 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04A7BAD428C12E86008504FF /* UserDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsModel.swift; sourceTree = "<group>"; };
+		04B2A82A28B3F6A30038F0E6 /* LeftMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftMenuViewController.xib; sourceTree = "<group>"; };
+		04B2A82B28B3F6A30038F0E6 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		04D9ECF5289EE1D0000F5168 /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
+		0753B7CF28846675006E5EC0 /* Admin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Admin.storyboard; sourceTree = "<group>"; };
+		0755DBC0287E7ED6001C4986 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0755DBC5287E7F66001C4986 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		0755DBCA287E7FE2001C4986 /* EnterOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterOTPViewController.swift; sourceTree = "<group>"; };
+		0755DBCF287E802E001C4986 /* SignUpOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpOptionViewController.swift; sourceTree = "<group>"; };
+		0755DBD4287E8078001C4986 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		07572505289DA03C001DB105 /* AdminHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		07572506289DA03C001DB105 /* AdminHomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdminHomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		0757250F289DA75B001DB105 /* AdminHomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeScreenViewController.swift; sourceTree = "<group>"; };
+		07572514289DAF6A001DB105 /* UserHomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHomeScreenViewController.swift; sourceTree = "<group>"; };
+		07572519289DAFDE001DB105 /* UserHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		0757251A289DAFDE001DB105 /* UserHomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserHomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		0757400928A18E4B0097EBE0 /* DeleteBinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteBinViewController.swift; sourceTree = "<group>"; };
+		0757E27D2890ED8A005DCD73 /* UserDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDashboardViewController.swift; sourceTree = "<group>"; };
+		0759150E28902B4E00B6570C /* MyComplainsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyComplainsViewController.swift; sourceTree = "<group>"; };
+		0759151328902D7000B6570C /* ComplainsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplainsViewController.swift; sourceTree = "<group>"; };
+		0759151828902E2F00B6570C /* ComplainsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplainsTableViewCell.swift; sourceTree = "<group>"; };
+		075915252890307600B6570C /* AddComplaintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddComplaintViewController.swift; sourceTree = "<group>"; };
+		0759152A2890310D00B6570C /* UserFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedbackViewController.swift; sourceTree = "<group>"; };
+		0759152F2890365100B6570C /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		0759153828903B8300B6570C /* ListOfBinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfBinViewController.swift; sourceTree = "<group>"; };
+		0759154028903BD000B6570C /* ListOfBinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfBinTableViewCell.swift; sourceTree = "<group>"; };
+		0759154528903DCA00B6570C /* DriverComplaintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverComplaintsViewController.swift; sourceTree = "<group>"; };
+		0759154A28903E1400B6570C /* DriverComplaintTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverComplaintTableViewCell.swift; sourceTree = "<group>"; };
+		0759154F2890406300B6570C /* UpdateComplaintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateComplaintViewController.swift; sourceTree = "<group>"; };
+		07591554289040A300B6570C /* DriverProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverProfileViewController.swift; sourceTree = "<group>"; };
+		075A31112890291900B3A919 /* MyComplainsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyComplainsTableViewCell.swift; sourceTree = "<group>"; };
+		075AA320288BA09D000A0350 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		075AA325288BA0E3000A0350 /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		075B38EF28904DEE00E321B1 /* Admin DeshboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Admin DeshboardViewController.swift"; sourceTree = "<group>"; };
+		075BD5DE287C1DE4004F491B /* Garbage Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Garbage Collection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		075BD5E1287C1DE4004F491B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		075BD5E3287C1DE4004F491B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		075BD5E8287C1DE4004F491B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		075BD5EA287C1DE5004F491B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		075BD5ED287C1DE5004F491B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		075BD5EF287C1DE5004F491B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075BD5F4287C1DE5004F491B /* Garbage CollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Garbage CollectionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		075BD5F8287C1DE5004F491B /* Garbage_CollectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garbage_CollectionTests.swift; sourceTree = "<group>"; };
+		075BD5FA287C1DE5004F491B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075BD5FF287C1DE5004F491B /* Garbage CollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Garbage CollectionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		075BD603287C1DE5004F491B /* Garbage_CollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garbage_CollectionUITests.swift; sourceTree = "<group>"; };
+		075BD605287C1DE5004F491B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075C8AD9289E578B00C4F3E9 /* DriverHomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverHomeScreenViewController.swift; sourceTree = "<group>"; };
+		075C8AE6289E583B00C4F3E9 /* DriverHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		075C8AE7289E583B00C4F3E9 /* DriverHomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DriverHomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		075CB2B2288528D900D004E4 /* BinListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinListTableViewController.swift; sourceTree = "<group>"; };
+		075CB2B728852B5F00D004E4 /* BinListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinListTableViewCell.swift; sourceTree = "<group>"; };
+		075CB2BC2885543000D004E4 /* DriverListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverListViewController.swift; sourceTree = "<group>"; };
+		075CB2C12885547800D004E4 /* DriverListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverListTableViewCell.swift; sourceTree = "<group>"; };
+		075CB2C628855D8800D004E4 /* ComplaintsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaintsListViewController.swift; sourceTree = "<group>"; };
+		075CB2CB28855DD000D004E4 /* ComplaintsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaintsListTableViewCell.swift; sourceTree = "<group>"; };
+		075CB2DE2885626200D004E4 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		075CB2E32885629400D004E4 /* FeedbackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackTableViewCell.swift; sourceTree = "<group>"; };
+		075CC204289401D600EF4A51 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		0760C15B28C4DED300B10E5E /* FeedbackDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackDetailsModel.swift; sourceTree = "<group>"; };
+		0760CE6728C30D5700AE9107 /* DriverDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DriverDetailsModel.swift; path = "Garbage Collection/DriverDetailsModel.swift"; sourceTree = SOURCE_ROOT; };
+		0760CE6C28C31E9500AE9107 /* ComplaintDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ComplaintDetailsModel.swift; path = "Garbage Collection/User/Model/ComplaintDetailsModel.swift"; sourceTree = SOURCE_ROOT; };
+		0761CF0F28A25D1A00E67A79 /* DeleteDriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDriverViewController.swift; sourceTree = "<group>"; };
+		07739A0128BD2FA90067C069 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		07EE67AF288474F60020651D /* CreateBinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBinViewController.swift; sourceTree = "<group>"; };
+		07EE67B428847FE10020651D /* CreateDriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDriverViewController.swift; sourceTree = "<group>"; };
+		07FC8E1928C7C31600E33235 /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		1C307F3127292E4F2AD66E5B /* Pods-Garbage Collection-Garbage CollectionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Garbage Collection-Garbage CollectionUITests.release.xcconfig"; path = "Target Support Files/Pods-Garbage Collection-Garbage CollectionUITests/Pods-Garbage Collection-Garbage CollectionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2DFB23D20C7CFB4EAF9AD7DB /* Pods-Garbage Collection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Garbage Collection.debug.xcconfig"; path = "Target Support Files/Pods-Garbage Collection/Pods-Garbage Collection.debug.xcconfig"; sourceTree = "<group>"; };
+		62226A1DF56836BD762103C5 /* Pods_Garbage_CollectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Garbage_CollectionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6283056F4FF90B3E028B63EE /* Pods-Garbage CollectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Garbage CollectionTests.debug.xcconfig"; path = "Target Support Files/Pods-Garbage CollectionTests/Pods-Garbage CollectionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F5D02E978469824CFBB1F7F /* Pods-Garbage Collection-Garbage CollectionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Garbage Collection-Garbage CollectionUITests.debug.xcconfig"; path = "Target Support Files/Pods-Garbage Collection-Garbage CollectionUITests/Pods-Garbage Collection-Garbage CollectionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C86A53002FDF5FBAF8962811 /* Pods-Garbage Collection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Garbage Collection.release.xcconfig"; path = "Target Support Files/Pods-Garbage Collection/Pods-Garbage Collection.release.xcconfig"; sourceTree = "<group>"; };
+		CBA4D2112F31A3A9C3D047F4 /* Pods_Garbage_Collection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Garbage_Collection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D203149B5D8CD90979B840E3 /* Pods_Garbage_Collection_Garbage_CollectionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Garbage_Collection_Garbage_CollectionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A1C101187D7BF4C36F402A /* Pods-Garbage CollectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Garbage CollectionTests.release.xcconfig"; path = "Target Support Files/Pods-Garbage CollectionTests/Pods-Garbage CollectionTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		075BD5DB287C1DE4004F491B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039DFC7CD48E9D548134BC48 /* Pods_Garbage_Collection.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075BD5F1287C1DE5004F491B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013B7482B3EC3B2129566A88 /* Pods_Garbage_CollectionTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075BD5FC287C1DE5004F491B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276D480A31CFF6C6C505B995 /* Pods_Garbage_Collection_Garbage_CollectionUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B2A82928B3F67C0038F0E6 /* Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+				04B2A82B28B3F6A30038F0E6 /* LeftMenuViewController.swift */,
+				04B2A82A28B3F6A30038F0E6 /* LeftMenuViewController.xib */,
+			);
+			path = "Side Menu";
+			sourceTree = "<group>";
+		};
+		04D9ECF4289EE1B5000F5168 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				04D9ECF5289EE1D0000F5168 /* ExtensionViewController.swift */,
+				047FD63628BFFD02001CE924 /* Constants.swift */,
+				0424695C28C49B3900879E31 /* UserDegault.swift */,
+				07FC8E1928C7C31600E33235 /* TextFieldExtension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0753B7C7288448C8006E5EC0 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				07EE67AA28846C8F0020651D /* Model */,
+				07EE67A928846C840020651D /* View */,
+				07EE67A828846C770020651D /* Controller */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		0753B7CB2884662E006E5EC0 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				041076CB289FC83300DA9975 /* Driver.storyboard */,
+				041076C9289FC47100DA9975 /* User.storyboard */,
+				075BD5E7287C1DE4004F491B /* Main.storyboard */,
+				0753B7CF28846675006E5EC0 /* Admin.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		075AA33C288BA523000A0350 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				075AA33F288BA54E000A0350 /* Model */,
+				075AA33E288BA541000A0350 /* View */,
+				075AA340288BA55B000A0350 /* Controller */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		075AA33D288BA534000A0350 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				075AA343288BA580000A0350 /* Controller */,
+				075AA342288BA576000A0350 /* Model */,
+				075AA341288BA56C000A0350 /* View */,
+			);
+			path = Driver;
+			sourceTree = "<group>";
+		};
+		075AA33E288BA541000A0350 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07572519289DAFDE001DB105 /* UserHomeCollectionViewCell.swift */,
+				0757251A289DAFDE001DB105 /* UserHomeCollectionViewCell.xib */,
+				0759151828902E2F00B6570C /* ComplainsTableViewCell.swift */,
+				075A31112890291900B3A919 /* MyComplainsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		075AA33F288BA54E000A0350 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0760CE6C28C31E9500AE9107 /* ComplaintDetailsModel.swift */,
+				0760C15B28C4DED300B10E5E /* FeedbackDetailsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		075AA340288BA55B000A0350 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0759150E28902B4E00B6570C /* MyComplainsViewController.swift */,
+				0759151328902D7000B6570C /* ComplainsViewController.swift */,
+				075915252890307600B6570C /* AddComplaintViewController.swift */,
+				0759152A2890310D00B6570C /* UserFeedbackViewController.swift */,
+				0759152F2890365100B6570C /* UserProfileViewController.swift */,
+				0757E27D2890ED8A005DCD73 /* UserDashboardViewController.swift */,
+				07572514289DAF6A001DB105 /* UserHomeScreenViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		075AA341288BA56C000A0350 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0759154028903BD000B6570C /* ListOfBinTableViewCell.swift */,
+				0759154A28903E1400B6570C /* DriverComplaintTableViewCell.swift */,
+				075C8AE6289E583B00C4F3E9 /* DriverHomeCollectionViewCell.swift */,
+				075C8AE7289E583B00C4F3E9 /* DriverHomeCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		075AA342288BA576000A0350 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		075AA343288BA580000A0350 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0759153828903B8300B6570C /* ListOfBinViewController.swift */,
+				0759154528903DCA00B6570C /* DriverComplaintsViewController.swift */,
+				0759154F2890406300B6570C /* UpdateComplaintViewController.swift */,
+				07591554289040A300B6570C /* DriverProfileViewController.swift */,
+				075C8AD9289E578B00C4F3E9 /* DriverHomeScreenViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		075BD5D5287C1DE4004F491B = {
+			isa = PBXGroup;
+			children = (
+				07739A0128BD2FA90067C069 /* GoogleService-Info.plist */,
+				075BD5E0287C1DE4004F491B /* Garbage Collection */,
+				075BD5F7287C1DE5004F491B /* Garbage CollectionTests */,
+				075BD602287C1DE5004F491B /* Garbage CollectionUITests */,
+				075BD5DF287C1DE4004F491B /* Products */,
+				72EC7C1491ABE393AF8A0B74 /* Pods */,
+				0D6BF45EEE10639E40E1E85A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		075BD5DF287C1DE4004F491B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				075BD5DE287C1DE4004F491B /* Garbage Collection.app */,
+				075BD5F4287C1DE5004F491B /* Garbage CollectionTests.xctest */,
+				075BD5FF287C1DE5004F491B /* Garbage CollectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		075BD5E0287C1DE4004F491B /* Garbage Collection */ = {
+			isa = PBXGroup;
+			children = (
+				04B2A82928B3F67C0038F0E6 /* Side Menu */,
+				04D9ECF4289EE1B5000F5168 /* Helper */,
+				0753B7CB2884662E006E5EC0 /* Storyboard */,
+				0753B7C7288448C8006E5EC0 /* Admin */,
+				075AA33C288BA523000A0350 /* User */,
+				075AA33D288BA534000A0350 /* Driver */,
+				0769AF39287C985300D7054C /* View */,
+				0769AF38287C982100D7054C /* Model */,
+				0769AF37287C97F800D7054C /* Controller */,
+				075BD5E1287C1DE4004F491B /* AppDelegate.swift */,
+				075BD5E3287C1DE4004F491B /* SceneDelegate.swift */,
+				075BD5EA287C1DE5004F491B /* Assets.xcassets */,
+				075BD5EC287C1DE5004F491B /* LaunchScreen.storyboard */,
+				075BD5EF287C1DE5004F491B /* Info.plist */,
+			);
+			path = "Garbage Collection";
+			sourceTree = "<group>";
+		};
+		075BD5F7287C1DE5004F491B /* Garbage CollectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				075BD5F8287C1DE5004F491B /* Garbage_CollectionTests.swift */,
+				075BD5FA287C1DE5004F491B /* Info.plist */,
+			);
+			path = "Garbage CollectionTests";
+			sourceTree = "<group>";
+		};
+		075BD602287C1DE5004F491B /* Garbage CollectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				075BD603287C1DE5004F491B /* Garbage_CollectionUITests.swift */,
+				075BD605287C1DE5004F491B /* Info.plist */,
+			);
+			path = "Garbage CollectionUITests";
+			sourceTree = "<group>";
+		};
+		0769AF37287C97F800D7054C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0769AF3A287C986F00D7054C /* Session */,
+				04A7BAD428C12E86008504FF /* UserDetailsModel.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0769AF38287C982100D7054C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0769AF39287C985300D7054C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0769AF3A287C986F00D7054C /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				0755DBC0287E7ED6001C4986 /* LoginViewController.swift */,
+				0755DBC5287E7F66001C4986 /* ForgotPasswordViewController.swift */,
+				0755DBCA287E7FE2001C4986 /* EnterOTPViewController.swift */,
+				0755DBCF287E802E001C4986 /* SignUpOptionViewController.swift */,
+				0755DBD4287E8078001C4986 /* RegisterViewController.swift */,
+				075AA320288BA09D000A0350 /* HomeViewController.swift */,
+				075AA325288BA0E3000A0350 /* LogoutViewController.swift */,
+				075CC204289401D600EF4A51 /* HomeTableViewCell.swift */,
+				047C31AF28C50D5F00EF622D /* AboutScreenViewController.swift */,
+				04307EB628FC062D00B7D698 /* SetNewPasswordViewController.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		07EE67A828846C770020651D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07EE67AF288474F60020651D /* CreateBinViewController.swift */,
+				07EE67B428847FE10020651D /* CreateDriverViewController.swift */,
+				075CB2B2288528D900D004E4 /* BinListTableViewController.swift */,
+				075CB2BC2885543000D004E4 /* DriverListViewController.swift */,
+				075CB2C628855D8800D004E4 /* ComplaintsListViewController.swift */,
+				075CB2DE2885626200D004E4 /* FeedbackViewController.swift */,
+				075B38EF28904DEE00E321B1 /* Admin DeshboardViewController.swift */,
+				07572506289DA03C001DB105 /* AdminHomeCollectionViewCell.xib */,
+				0757250F289DA75B001DB105 /* AdminHomeScreenViewController.swift */,
+				0757400928A18E4B0097EBE0 /* DeleteBinViewController.swift */,
+				0761CF0F28A25D1A00E67A79 /* DeleteDriverViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		07EE67A928846C840020651D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				075CB2B728852B5F00D004E4 /* BinListTableViewCell.swift */,
+				075CB2C12885547800D004E4 /* DriverListTableViewCell.swift */,
+				075CB2CB28855DD000D004E4 /* ComplaintsListTableViewCell.swift */,
+				07572505289DA03C001DB105 /* AdminHomeCollectionViewCell.swift */,
+				075CB2E32885629400D004E4 /* FeedbackTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07EE67AA28846C8F0020651D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0760CE6728C30D5700AE9107 /* DriverDetailsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0D6BF45EEE10639E40E1E85A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBA4D2112F31A3A9C3D047F4 /* Pods_Garbage_Collection.framework */,
+				D203149B5D8CD90979B840E3 /* Pods_Garbage_Collection_Garbage_CollectionUITests.framework */,
+				62226A1DF56836BD762103C5 /* Pods_Garbage_CollectionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72EC7C1491ABE393AF8A0B74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DFB23D20C7CFB4EAF9AD7DB /* Pods-Garbage Collection.debug.xcconfig */,
+				C86A53002FDF5FBAF8962811 /* Pods-Garbage Collection.release.xcconfig */,
+				6F5D02E978469824CFBB1F7F /* Pods-Garbage Collection-Garbage CollectionUITests.debug.xcconfig */,
+				1C307F3127292E4F2AD66E5B /* Pods-Garbage Collection-Garbage CollectionUITests.release.xcconfig */,
+				6283056F4FF90B3E028B63EE /* Pods-Garbage CollectionTests.debug.xcconfig */,
+				D2A1C101187D7BF4C36F402A /* Pods-Garbage CollectionTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		075BD5DD287C1DE4004F491B /* Garbage Collection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075BD608287C1DE5004F491B /* Build configuration list for PBXNativeTarget "Garbage Collection" */;
+			buildPhases = (
+				151F700786DD5EE848A1A205 /* [CP] Check Pods Manifest.lock */,
+				075BD5DA287C1DE4004F491B /* Sources */,
+				075BD5DB287C1DE4004F491B /* Frameworks */,
+				075BD5DC287C1DE4004F491B /* Resources */,
+				E0766BFC3974EAD3FFECA5C9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Garbage Collection";
+			productName = "Garbage Collection";
+			productReference = 075BD5DE287C1DE4004F491B /* Garbage Collection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		075BD5F3287C1DE5004F491B /* Garbage CollectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075BD60B287C1DE5004F491B /* Build configuration list for PBXNativeTarget "Garbage CollectionTests" */;
+			buildPhases = (
+				4B5A5446331D115B13DE8348 /* [CP] Check Pods Manifest.lock */,
+				075BD5F0287C1DE5004F491B /* Sources */,
+				075BD5F1287C1DE5004F491B /* Frameworks */,
+				075BD5F2287C1DE5004F491B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				075BD5F6287C1DE5004F491B /* PBXTargetDependency */,
+			);
+			name = "Garbage CollectionTests";
+			productName = "Garbage CollectionTests";
+			productReference = 075BD5F4287C1DE5004F491B /* Garbage CollectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		075BD5FE287C1DE5004F491B /* Garbage CollectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075BD60E287C1DE5004F491B /* Build configuration list for PBXNativeTarget "Garbage CollectionUITests" */;
+			buildPhases = (
+				BF0AE93FE6EFB0EBB1689AFB /* [CP] Check Pods Manifest.lock */,
+				075BD5FB287C1DE5004F491B /* Sources */,
+				075BD5FC287C1DE5004F491B /* Frameworks */,
+				075BD5FD287C1DE5004F491B /* Resources */,
+				E3520FA3B789D956D119883B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				075BD601287C1DE5004F491B /* PBXTargetDependency */,
+			);
+			name = "Garbage CollectionUITests";
+			productName = "Garbage CollectionUITests";
+			productReference = 075BD5FF287C1DE5004F491B /* Garbage CollectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		075BD5D6287C1DE4004F491B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					075BD5DD287C1DE4004F491B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					075BD5F3287C1DE5004F491B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 075BD5DD287C1DE4004F491B;
+					};
+					075BD5FE287C1DE5004F491B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 075BD5DD287C1DE4004F491B;
+					};
+				};
+			};
+			buildConfigurationList = 075BD5D9287C1DE4004F491B /* Build configuration list for PBXProject "Garbage Collection" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 075BD5D5287C1DE4004F491B;
+			productRefGroup = 075BD5DF287C1DE4004F491B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				075BD5DD287C1DE4004F491B /* Garbage Collection */,
+				075BD5F3287C1DE5004F491B /* Garbage CollectionTests */,
+				075BD5FE287C1DE5004F491B /* Garbage CollectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		075BD5DC287C1DE4004F491B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0753B7D028846675006E5EC0 /* Admin.storyboard in Resources */,
+				07572508289DA03C001DB105 /* AdminHomeCollectionViewCell.xib in Resources */,
+				075C8AE9289E583B00C4F3E9 /* DriverHomeCollectionViewCell.xib in Resources */,
+				075BD5EE287C1DE5004F491B /* LaunchScreen.storyboard in Resources */,
+				041076CC289FC83300DA9975 /* Driver.storyboard in Resources */,
+				075BD5EB287C1DE5004F491B /* Assets.xcassets in Resources */,
+				0757251C289DAFDE001DB105 /* UserHomeCollectionViewCell.xib in Resources */,
+				075BD5E9287C1DE4004F491B /* Main.storyboard in Resources */,
+				07739A0228BD2FA90067C069 /* GoogleService-Info.plist in Resources */,
+				04B2A82C28B3F6A30038F0E6 /* LeftMenuViewController.xib in Resources */,
+				041076CA289FC47100DA9975 /* User.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075BD5F2287C1DE5004F491B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075BD5FD287C1DE5004F491B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		151F700786DD5EE848A1A205 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Garbage Collection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B5A5446331D115B13DE8348 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Garbage CollectionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF0AE93FE6EFB0EBB1689AFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Garbage Collection-Garbage CollectionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0766BFC3974EAD3FFECA5C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Garbage Collection/Pods-Garbage Collection-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Garbage Collection/Pods-Garbage Collection-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Garbage Collection/Pods-Garbage Collection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3520FA3B789D956D119883B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Garbage Collection-Garbage CollectionUITests/Pods-Garbage Collection-Garbage CollectionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Garbage Collection-Garbage CollectionUITests/Pods-Garbage Collection-Garbage CollectionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Garbage Collection-Garbage CollectionUITests/Pods-Garbage Collection-Garbage CollectionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		075BD5DA287C1DE4004F491B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075CB2E42885629400D004E4 /* FeedbackTableViewCell.swift in Sources */,
+				0755DBC1287E7ED6001C4986 /* LoginViewController.swift in Sources */,
+				0761CF1028A25D1A00E67A79 /* DeleteDriverViewController.swift in Sources */,
+				0757E27E2890ED8A005DCD73 /* UserDashboardViewController.swift in Sources */,
+				07572510289DA75B001DB105 /* AdminHomeScreenViewController.swift in Sources */,
+				075B38F028904DEE00E321B1 /* Admin DeshboardViewController.swift in Sources */,
+				0760CE6828C30D5700AE9107 /* DriverDetailsModel.swift in Sources */,
+				075CB2BD2885543000D004E4 /* DriverListViewController.swift in Sources */,
+				075AA326288BA0E3000A0350 /* LogoutViewController.swift in Sources */,
+				075CC205289401D600EF4A51 /* HomeTableViewCell.swift in Sources */,
+				075915262890307600B6570C /* AddComplaintViewController.swift in Sources */,
+				0755DBC6287E7F66001C4986 /* ForgotPasswordViewController.swift in Sources */,
+				0760CE6D28C31E9500AE9107 /* ComplaintDetailsModel.swift in Sources */,
+				0759151428902D7000B6570C /* ComplainsViewController.swift in Sources */,
+				0757251B289DAFDE001DB105 /* UserHomeCollectionViewCell.swift in Sources */,
+				04D9ECF6289EE1D0000F5168 /* ExtensionViewController.swift in Sources */,
+				04A7BAD528C12E86008504FF /* UserDetailsModel.swift in Sources */,
+				04B2A82D28B3F6A30038F0E6 /* LeftMenuViewController.swift in Sources */,
+				075CB2C22885547800D004E4 /* DriverListTableViewCell.swift in Sources */,
+				07591555289040A300B6570C /* DriverProfileViewController.swift in Sources */,
+				07FC8E1A28C7C31600E33235 /* TextFieldExtension.swift in Sources */,
+				047C31B028C50D5F00EF622D /* AboutScreenViewController.swift in Sources */,
+				0759153928903B8300B6570C /* ListOfBinViewController.swift in Sources */,
+				0759150F28902B4E00B6570C /* MyComplainsViewController.swift in Sources */,
+				07EE67B528847FE10020651D /* CreateDriverViewController.swift in Sources */,
+				0759151928902E2F00B6570C /* ComplainsTableViewCell.swift in Sources */,
+				0755DBD5287E8078001C4986 /* RegisterViewController.swift in Sources */,
+				07572507289DA03C001DB105 /* AdminHomeCollectionViewCell.swift in Sources */,
+				0757400A28A18E4B0097EBE0 /* DeleteBinViewController.swift in Sources */,
+				04307EB728FC062D00B7D698 /* SetNewPasswordViewController.swift in Sources */,
+				0424695D28C49B3900879E31 /* UserDegault.swift in Sources */,
+				075CB2DF2885626200D004E4 /* FeedbackViewController.swift in Sources */,
+				0755DBCB287E7FE2001C4986 /* EnterOTPViewController.swift in Sources */,
+				075BD5E2287C1DE4004F491B /* AppDelegate.swift in Sources */,
+				075CB2C728855D8800D004E4 /* ComplaintsListViewController.swift in Sources */,
+				075A31122890291900B3A919 /* MyComplainsTableViewCell.swift in Sources */,
+				047FD63728BFFD02001CE924 /* Constants.swift in Sources */,
+				075BD5E4287C1DE4004F491B /* SceneDelegate.swift in Sources */,
+				0759154B28903E1400B6570C /* DriverComplaintTableViewCell.swift in Sources */,
+				075CB2CC28855DD000D004E4 /* ComplaintsListTableViewCell.swift in Sources */,
+				0759154128903BD000B6570C /* ListOfBinTableViewCell.swift in Sources */,
+				0759152B2890310D00B6570C /* UserFeedbackViewController.swift in Sources */,
+				075AA321288BA09D000A0350 /* HomeViewController.swift in Sources */,
+				0760C15C28C4DED300B10E5E /* FeedbackDetailsModel.swift in Sources */,
+				075915302890365100B6570C /* UserProfileViewController.swift in Sources */,
+				075C8ADA289E578B00C4F3E9 /* DriverHomeScreenViewController.swift in Sources */,
+				075915502890406300B6570C /* UpdateComplaintViewController.swift in Sources */,
+				075CB2B828852B5F00D004E4 /* BinListTableViewCell.swift in Sources */,
+				07EE67B0288474F60020651D /* CreateBinViewController.swift in Sources */,
+				075C8AE8289E583B00C4F3E9 /* DriverHomeCollectionViewCell.swift in Sources */,
+				075CB2B3288528D900D004E4 /* BinListTableViewController.swift in Sources */,
+				07572515289DAF6A001DB105 /* UserHomeScreenViewController.swift in Sources */,
+				0755DBD0287E802E001C4986 /* SignUpOptionViewController.swift in Sources */,
+				0759154628903DCA00B6570C /* DriverComplaintsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075BD5F0287C1DE5004F491B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075BD5F9287C1DE5004F491B /* Garbage_CollectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075BD5FB287C1DE5004F491B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075BD604287C1DE5004F491B /* Garbage_CollectionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		075BD5F6287C1DE5004F491B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 075BD5DD287C1DE4004F491B /* Garbage Collection */;
+			targetProxy = 075BD5F5287C1DE5004F491B /* PBXContainerItemProxy */;
+		};
+		075BD601287C1DE5004F491B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 075BD5DD287C1DE4004F491B /* Garbage Collection */;
+			targetProxy = 075BD600287C1DE5004F491B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		075BD5E7287C1DE4004F491B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075BD5E8287C1DE4004F491B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		075BD5EC287C1DE5004F491B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075BD5ED287C1DE5004F491B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		075BD606287C1DE5004F491B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		075BD607287C1DE5004F491B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		075BD609287C1DE5004F491B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DFB23D20C7CFB4EAF9AD7DB /* Pods-Garbage Collection.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A98PCK65C9;
+				INFOPLIST_FILE = "Garbage Collection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garbagecollection.in;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		075BD60A287C1DE5004F491B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C86A53002FDF5FBAF8962811 /* Pods-Garbage Collection.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A98PCK65C9;
+				INFOPLIST_FILE = "Garbage Collection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garbagecollection.in;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		075BD60C287C1DE5004F491B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6283056F4FF90B3E028B63EE /* Pods-Garbage CollectionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAT68F6L25;
+				INFOPLIST_FILE = "Garbage CollectionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Saga.DemoMapBox.Garbage-CollectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Garbage Collection.app/Garbage Collection";
+			};
+			name = Debug;
+		};
+		075BD60D287C1DE5004F491B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2A1C101187D7BF4C36F402A /* Pods-Garbage CollectionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAT68F6L25;
+				INFOPLIST_FILE = "Garbage CollectionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Saga.DemoMapBox.Garbage-CollectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Garbage Collection.app/Garbage Collection";
+			};
+			name = Release;
+		};
+		075BD60F287C1DE5004F491B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5D02E978469824CFBB1F7F /* Pods-Garbage Collection-Garbage CollectionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAT68F6L25;
+				INFOPLIST_FILE = "Garbage CollectionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Saga.DemoMapBox.Garbage-CollectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Garbage Collection";
+			};
+			name = Debug;
+		};
+		075BD610287C1DE5004F491B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C307F3127292E4F2AD66E5B /* Pods-Garbage Collection-Garbage CollectionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAT68F6L25;
+				INFOPLIST_FILE = "Garbage CollectionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Saga.DemoMapBox.Garbage-CollectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Garbage Collection";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		075BD5D9287C1DE4004F491B /* Build configuration list for PBXProject "Garbage Collection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075BD606287C1DE5004F491B /* Debug */,
+				075BD607287C1DE5004F491B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075BD608287C1DE5004F491B /* Build configuration list for PBXNativeTarget "Garbage Collection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075BD609287C1DE5004F491B /* Debug */,
+				075BD60A287C1DE5004F491B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075BD60B287C1DE5004F491B /* Build configuration list for PBXNativeTarget "Garbage CollectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075BD60C287C1DE5004F491B /* Debug */,
+				075BD60D287C1DE5004F491B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075BD60E287C1DE5004F491B /* Build configuration list for PBXNativeTarget "Garbage CollectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075BD60F287C1DE5004F491B /* Debug */,
+				075BD610287C1DE5004F491B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 075BD5D6287C1DE4004F491B /* Project object */;
+}

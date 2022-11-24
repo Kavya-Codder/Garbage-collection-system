@@ -1,0 +1,6 @@
+framework module Pods_Garbage_Collection_Garbage_CollectionUITests {
+  umbrella header "Pods-Garbage Collection-Garbage CollectionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
